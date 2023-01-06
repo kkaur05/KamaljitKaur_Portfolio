@@ -2,6 +2,27 @@ html, body {
   height: 100%;
   width: 100%;
 }
+
 body{
-  
+  background-color: #ededed;
+}
+
+h1 {
+  font-family: 'Tangerine', serif;
+ text-shadow: 3px 3px 3px #aaa;
+}
+.container{
+  border: double;
+  padding: 5px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  size: 10px;
+}
+
+div.container {
+  width:500px;
+  height:700px;
 }
