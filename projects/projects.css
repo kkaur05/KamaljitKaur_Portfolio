@@ -1,7 +1,18 @@
-html, body {
-  height: 100%;
-  width: 100%;
+.link {
+  font-size: 25px;
+  font-family: cursive;
+  color: white; 
+  padding: 7.5px;
+  border-style: solid;
+  border-color: black; 
+  border-width: 1px;
   text-align: center;
+}
+
+h1 {
+  color:white;
+  font-family: 'Tangerine', serif;
+ text-shadow: 3px 3px 3px #aaa;
 }
 body {
     background-image:url("https://media.istockphoto.com/id/1326304939/vector/studio-room-in-dark-blue-background-with-copy-space-luxury-gallery-empty-room-abstract.jpg?s=612x612&w=0&k=20&c=wZhCPp213vDnmc66LNJ3Kb4qKZHr_xiKCvYmfpQgyHI=");
@@ -12,39 +23,10 @@ body {
 	  width: 100%;
     height: 100%;
       }
-
-h1 {
- font-family: 'Tangerine', serif;
- text-shadow: 3px 3px 3px #aaa;
- color: white;
-}
-.container{
-  margin: auto;
-  border: double;
-  padding: 5px;
-  border-color: #333;
-}
-
-.topnav {
-  overflow: hidden;
-  background-color: #333;
-  height: 59px;
-}
-
-div.container {
-  width:500px;
-  height:400px;
-  text-align: center;
-}
-* {
-  box-sizing: border-box;
-}
-
 body{
   margin:0;
 }
 
-/* The navbar container */
 .topnav {
   overflow: hidden;
   background-color: #333;
@@ -62,10 +44,28 @@ body{
 
 /* Links - change color on hover */
 .topnav a:hover {
-  background-color: #f2f2f2;
+  background-color: #ddd;
   color: black;
   transform: scale(1.15);	
 	transition: transform .2s;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
 }
 
 .toplinks {
@@ -74,10 +74,38 @@ body{
   color: black; 
   padding: 7.5px;
   border-style: solid;
-  border-color: #ffe5f8; 
+  border-color: Black; 
   border-width: 1px;
   text-align: center;
 }
-h3, h2 {
+
+h3, h2, p {
   color: white;
+}
+.projectBox1{
+  border:double;
+  border-color: #333;
+  height: 250px;
+  width: 450px;
+  padding:5px;
+}
+.projectBox2{
+  border:double;
+  border-color: #333;
+  height: 250px;
+  width: 450px;
+  padding:5px;
+}
+.projectBox3{
+  border:double;
+  border-color: #333;
+  height: 250px;
+  width: 450px;
+  padding:5px;
+}
+
+div.container {
+  width:1000px;
+  display:flex;
+  justify-content: space-between;
 }

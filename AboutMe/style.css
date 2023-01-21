@@ -1,0 +1,98 @@
+body{
+  background-color: #ffe5f8;
+}
+
+h1 {
+  font-family: 'Tangerine', serif;
+ text-shadow: 3px 3px 3px #aaa;
+}
+body {
+  background-image:url("https://media.istockphoto.com/id/1326304939/vector/studio-room-in-dark-blue-background-with-copy-space-luxury-gallery-empty-room-abstract.jpg?s=612x612&w=0&k=20&c=wZhCPp213vDnmc66LNJ3Kb4qKZHr_xiKCvYmfpQgyHI=");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+	width: 100%;
+  height: 100%;
+}
+.link {
+  font-size: 25px;
+  font-family: cursive;
+  color: black; 
+  padding: 7.5px;
+  border-style: solid;
+  border-color: black; 
+  border-width: 1px;
+  text-align: center;
+}
+* {
+  box-sizing: border-box;
+}
+
+body{
+  margin:0;
+}
+
+/* The navbar container */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  height: 59px;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  transform: scale(1.15);	
+	transition: transform .2s;
+}
+
+.toplinks {
+  font-size: 15px;
+  font-family: cursive;
+  color: black; 
+  padding: 7.5px;
+  border-style: solid;
+  border-color: Black; 
+  border-width: 1px;
+  text-align: center;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+  border: double;
+  height:300px;
+  border-color: #333;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+p{
+  font-size: 17px;
+}
+h3, h2, p, h1 {
+  color: white;
+}
